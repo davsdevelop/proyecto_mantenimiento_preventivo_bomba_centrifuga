@@ -11,7 +11,7 @@ Pipeline **ETL** reproducible (Volumen 1) sobre datos operativos y de mantenimie
 
 ## Arquitectura del Flujo
 
-![Arquitectura del Pipeline ETL](docs/captures/00_arquitectura.png)
+![Arquitectura del Pipeline ETL](docs/captures/00_arquitectura.jpeg)
 
 ```mermaid
 flowchart LR
@@ -50,7 +50,7 @@ Rango temporal de lecturas operativas: **2026-08-01 a 2026-10-31**.
 │       └── ordenes_mantenimiento_clean.parquet
 ├── docs/
 │   └── captures/
-│       └── 00_arquitectura.png               # Diagrama de arquitectura del pipeline
+│       └── 00_arquitectura.jpeg              # Diagrama de arquitectura del pipeline
 ├── notebooks/                                # Reservado para EDA (Volumen 2)
 ├── src/
 │   ├── data/
