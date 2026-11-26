@@ -1,0 +1,35 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Sistema operativo
+.DS_Store
+
+# Datos crudos e intermedios (se regeneran desde la fuente)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Notas internas (no publicar)
+command.txt
+MEMORY.md
+VOL_libros.md
+CONTEXTO_PROYECTO.txt
